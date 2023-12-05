@@ -1,0 +1,46 @@
+:root {
+  --main-color-font: #09061c;
+  --color-brand: #2b7fff;
+  --color-brand-second: #011c44;
+}
+/* base */
+body {
+  color: var(--color-brand-second);
+}
+ul {
+  list-style-type: none;
+}
+/* button */
+.button {
+  color: #ffffff;
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: 16px;
+  cursor: pointer;
+}
+.button:active {
+  color: var(--color-brand-second);
+  border: 2px solid var(--color-brand);
+  background-color: transparent;
+}
+/* link */
+.nav-link {
+  color: var(--color-brand-second);
+}
+.nav-link:hover {
+  color: var(--color-brand);
+}
+/* hero */
+.hero-title {
+  color: var(--main-color-font);
+}
+.hero-title .accent {
+  color: var(--color-brand);
+}
+/* section title */
+.section-title {
+  color: var(--main-color-font);
+}
+.section-title .accent {
+  color: var(--color-brand);
+}
